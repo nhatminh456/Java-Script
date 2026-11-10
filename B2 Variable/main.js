@@ -1,11 +1,14 @@
-// varialbe là biến, là nơi lưu trữ dữ liệu trong bộ nhớ của máy tính
+// Biến là một vùng nhớ có tên dùng để lưu trữ dữ liệu.
 
-// cách 1 declare let a = 10; // khai báo biến a có giá trị là 10
-// cách 2 assignment  x =100;   
+// Khai báo: tạo biến và gán giá trị ban đầu cho biến.
+// Ví dụ: let a = 10;
+// Gán giá trị: thay đổi giá trị của một biến đã tồn tại.
+// Ví dụ: a = 100;
 
-// datatype string, numbet, boolean, null, undefined, object, array
+// Các kiểu dữ liệu thường gặp gồm string, number, boolean,
+// null, undefined, object và array.
 let age = 21;
 let gpa = 3.5;
 
+// Template literal dùng dấu huyền (`) và ${...} để chèn giá trị biến vào chuỗi.
 console.log(`Your age is ${age} years old and your GPA is ${gpa}.`);
-
